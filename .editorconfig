@@ -1,0 +1,19 @@
+root = true
+
+[*]
+## 文字コード
+charset = utf-8
+## 改行コード
+end_of_line = lf
+## ファイル末尾に空行を挿入するか
+insert_final_newline = true
+## インデントのサイズ
+indent_size = 4
+## インデントはタブかスペースか
+indent_style = space
+## 行末尾のホワイトスペース（空白文字）を削除するかどうか
+trim_trailing_whitespace = true
+
+[*.{json,md,wsd}]
+indent_size = 2
+
